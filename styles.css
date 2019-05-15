@@ -1,0 +1,87 @@
+html {
+    padding-left: 100px;
+}
+
+#Carlos-Samaniego {
+    position: relative;
+    top: -475px;
+    right: 0px; 
+    color:rgb(97, 180, 219)
+
+}
+
+#Education {
+    position: relative;
+}
+
+body {
+    background: rgb(238, 236, 236);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+header {
+    background: rgb(238, 236, 236);
+    color: rgb(97, 180, 219);
+
+}
+
+p {
+    color: black;
+    background: rgb(238, 236, 236);
+
+}
+
+div {
+    background: rgb(238, 236, 236);
+    margin: auto;
+    width: 100px;
+}
+
+h1 {
+    color: rgb(97, 180, 219);
+}
+h2 {
+    color: rgb(97, 180, 219);
+}
+
+h3 {
+    color: rgb(97, 180, 219);
+    position: relative;
+    
+}
+
+h4 {
+    color: rgb(97, 180, 219);
+}
+
+ul {
+    color: black;
+}
+
+li {
+    color: black;
+}
+
+#icons {
+   position: relative;
+   top: -5px;
+   right: -950px; 
+}
+
+#About-Me {
+    position: relative;
+    left: 170px;
+    top: -479px; 
+    color: black;
+    text-align: left;
+    width: 50%;
+}
+
+#Main-Content {
+    position: relative;
+    top: -250px;
+}
