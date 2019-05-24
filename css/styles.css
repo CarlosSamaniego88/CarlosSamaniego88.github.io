@@ -1,58 +1,87 @@
-html {
-    padding-left: 100px;
+a {
+    text-decoration: underline;
+    color: #444;
 }
 
-#Carlos-Samaniego {
-    position: relative;
-    top: -475px;
-    right: 0px; 
-    color:rgb(97, 180, 219)
-
+a:hover {
+    color:rgb(44, 161, 44);
+    
 }
 
-#Education {
-    position: relative;
+a:active {
+    color:rgb(97, 180, 219);
 }
 
+.container {
+    width: 81%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.main-content {
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+    background: #ddd;
+    border-radius:8px;
+    padding: 10px;
+   
+}
+
+.social-bar1 li{
+    list-style: none;
+    position:fixed;
+    top: 200px;
+    margin: -40px;
+}
+
+.social-bar2 li{
+    list-style: none;
+    position:fixed;
+    top: 240px;
+    margin: -40px;
+}
+
+.social-bar3 li{
+    list-style: none;
+    position:fixed;
+    top: 280px;
+    margin: -40px;
+}
+
+#profile {
+    float:left;
+    width: 40%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#About-Me {
+    float:right;
+    width: 60%;
+    background: #ddd;
+    color: #444;
+    margin-top: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    box-sizing: border-box;
+    border-radius:8px;
+    height:400px;
+    
+}
 body {
     background: rgb(238, 236, 236);
-    color: white;
+    color: #444;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    position: relative;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+
 }
 
-header {
-    background: rgb(238, 236, 236);
+#main-header {
+    background: #ddd;
     color: rgb(97, 180, 219);
-
-}
-
-p {
-    color: black;
-    background: rgb(238, 236, 236);
-
-}
-
-div {
-    background: rgb(238, 236, 236);
-    margin: auto;
-    width: 100px;
-}
-
-h1 {
-    color: rgb(97, 180, 219);
-}
-h2 {
-    color: rgb(97, 180, 219);
-}
-
-h3 {
-    color: rgb(97, 180, 219);
-    position: relative;
-    
-    
 }
 
 h4 {
@@ -61,30 +90,27 @@ h4 {
 }
 
 ul {
-    color: black;
     line-height:150%;
 }
 
-li {
-    color: black;
+#main-footer {
+    background: #ddd;
+    color:rgb(97, 180, 219);
+    text-align: center;
+    padding: 1px;
+    margin-top:20px;
 }
 
-#icons {
-   position: relative;
-   top: -5px;
-   right: -925px; 
-}
+@media(max-width:1250px){
+    #profile {
+        width:100%;
+        float:none;
+    }
 
-#About-Me {
-    position: relative;
-    left: 185px;
-    top: -479px; 
-    color: black;
-    text-align: left;
-    width: 50%;
-}
-
-#Main-Content {
-    position: relative;
-    top: -250px;
+    #About-Me {
+        width:100%;
+        float:none;
+        padding-top: 1px;
+        height: auto;
+    }
 }
